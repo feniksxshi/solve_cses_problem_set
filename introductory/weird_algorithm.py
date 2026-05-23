@@ -1,8 +1,4 @@
-def main():
-	n = int(input())
-	if not n:
-		return 
-	
+def handle_weird_algorithm(n):
 	i = n
 	rs = [n]
 	while i != 1:
@@ -15,6 +11,7 @@ def main():
 	
 	return rs
 
-output = main()
+n = int(input())
+output = handle_weird_algorithm(n)
 for num in output:
 	print(f"{num:.0f}")
