@@ -1,4 +1,15 @@
 # Def: A permutation is an ordered arragement of objects or numbers 
+'''
+Trick:
+1. print even nums first
+2. print odd nums 
+
+ex: 7 
+-> [2, 4, 6]
+-> [2, 4, 6, 1, 3, 5]
+-> [2, 4, 6, 1, 3, 5, 7]
+'''
+
 def construct_beautiful_permutation(n):
 	if n == 1:
 		return '1'
